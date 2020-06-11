@@ -5,7 +5,7 @@ import "./style.css";
 import logo from "./logo.png";
 
 const App = () => {
-  const url = "http://dummy.restapiexample.com/api/v1/employees";
+  const url = "https://dummy.restapiexample.com/api/v1/employees";
 
   const [data, setData] = useState([]);
 
