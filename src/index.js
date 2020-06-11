@@ -11,7 +11,10 @@ const App = () => {
 
   useEffect(() => {
     var config = {
-        headers: {'Access-Control-Allow-Origin': '*'}
+        headers: {
+          'Access-Control-Allow-Origin': '*',
+          'Access-Control-Allow-Headers': '*',
+        },
     };
     axios
       .get(url, config)
